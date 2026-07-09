@@ -47,7 +47,7 @@ export default function Project() {
 
             <div className="px-6 sm:px-8 pt-4">
               <a
-                href="https://drive.google.com/file/d/1MktmDbkyDPdL8WdG8mmwSEqRGkw9Q_YD/view"
+                href="https://youtu.be/FZvW-rF-efo"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 text-sm font-medium text-cyan-400 hover:text-cyan-300 transition-colors"
