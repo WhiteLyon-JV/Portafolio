@@ -34,36 +34,36 @@ const education = [
 
 export default function Experience() {
   return (
-    <section id="experiencia" className="py-20 bg-[#efefef]">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6">
+    <section id="experiencia" className="py-20 bg-background relative">
+      <div className="absolute inset-0 bg-gradient-to-b from-surface via-transparent to-surface opacity-30" />
+      <div className="relative max-w-4xl mx-auto px-4 sm:px-6">
         <AnimatedSection>
-          <h2 className="text-3xl font-bold text-gray-900 mb-10 text-center">
+          <h2 className="text-3xl font-heading font-bold text-text-bright mb-10 text-center">
             Experiencia
           </h2>
         </AnimatedSection>
 
-        {/* Timeline */}
         <div className="relative">
-          <div className="absolute left-4 top-0 bottom-0 w-px bg-gray-200 hidden sm:block" />
+          <div className="absolute left-4 top-0 bottom-0 w-px bg-gradient-to-b from-indigo-500/50 via-cyan-500/50 to-transparent hidden sm:block" />
 
           <div className="space-y-8">
             {experiences.map((exp, i) => (
               <AnimatedSection key={i} delay={i * 0.1}>
                 <div className="flex gap-6">
                   <div className="hidden sm:flex flex-col items-center">
-                    <div className="w-3 h-3 rounded-full bg-blue-500 ring-4 ring-blue-50 relative z-10" />
+                    <div className="w-3 h-3 rounded-full bg-indigo-500 ring-4 ring-indigo-500/20 relative z-10" />
                   </div>
-                  <div className="flex-1 bg-white rounded-xl border border-gray-100 p-5 hover:shadow-md transition-shadow duration-200">
+                  <div className="flex-1 bg-surface rounded-xl border border-border p-5 hover:border-indigo-500/30 hover:shadow-lg hover:shadow-black/10 transition-all duration-200">
                     <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1 mb-2">
-                      <h3 className="font-semibold text-gray-900">
+                      <h3 className="font-semibold text-text-bright">
                         {exp.title}
                       </h3>
-                      <span className="text-sm text-blue-600 font-medium">
+                      <span className="text-sm text-indigo-400 font-medium">
                         {exp.company}
                       </span>
                     </div>
-                    <p className="text-sm text-gray-400 mb-2">{exp.date}</p>
-                    <p className="text-sm text-gray-600 leading-relaxed">
+                    <p className="text-sm text-text-muted/60 mb-2">{exp.date}</p>
+                    <p className="text-sm text-text-muted leading-relaxed">
                       {exp.description}
                     </p>
                   </div>
@@ -73,9 +73,8 @@ export default function Experience() {
           </div>
         </div>
 
-        {/* Education */}
         <AnimatedSection delay={0.2}>
-          <h2 className="text-3xl font-bold text-gray-900 mt-16 mb-10 text-center">
+          <h2 className="text-3xl font-heading font-bold text-text-bright mt-16 mb-10 text-center">
             Educación
           </h2>
         </AnimatedSection>
@@ -83,14 +82,14 @@ export default function Experience() {
         <div className="space-y-4">
           {education.map((edu, i) => (
             <AnimatedSection key={i} delay={0.25 + i * 0.08}>
-              <div className="bg-white rounded-xl border border-gray-100 p-5 hover:shadow-md transition-shadow duration-200">
+              <div className="bg-surface rounded-xl border border-border p-5 hover:border-cyan-500/30 hover:shadow-lg hover:shadow-black/10 transition-all duration-200">
                 <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
-                  <h3 className="font-semibold text-gray-900">{edu.title}</h3>
-                  <span className="text-sm text-blue-600 font-medium">
+                  <h3 className="font-semibold text-text-bright">{edu.title}</h3>
+                  <span className="text-sm text-cyan-400 font-medium">
                     {edu.institution}
                   </span>
                 </div>
-                <p className="text-sm text-gray-400 mt-1">{edu.date}</p>
+                <p className="text-sm text-text-muted/60 mt-1">{edu.date}</p>
               </div>
             </AnimatedSection>
           ))}
