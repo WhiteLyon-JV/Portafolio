@@ -37,7 +37,7 @@ const skillGroups = [
   },
   {
     title: "Herramientas",
-    items: ["Git", "GitHub", "Postman", "Swagger", "Android Studio", "Render", "Firebase"],
+    items: ["Git", "GitHub", "Postman", "Swagger", "Android Studio", "Render", "Firebase", "VS Code", "Oracle SQL Developer"],
     gradient: "from-emerald-500/20 to-emerald-600/5",
     border: "border-emerald-500/20",
     dot: "bg-emerald-500",
