@@ -13,7 +13,7 @@ const skillGroups = [
   },
   {
     title: "Mobile",
-    items: ["Flutter", "Dart"],
+    items: ["Flutter", "Dart", "Kotlin"],
     gradient: "from-purple-500/20 to-purple-600/5",
     border: "border-purple-500/20",
     dot: "bg-purple-500",
