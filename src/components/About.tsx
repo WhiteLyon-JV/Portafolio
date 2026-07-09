@@ -12,7 +12,7 @@ export default function About() {
           </h2>
         </AnimatedSection>
         <AnimatedSection delay={0.1}>
-          <p className="text-lg text-text-muted leading-relaxed max-w-3xl mx-auto text-center">
+          <p className="text-lg text-text-muted leading-relaxed max-w-3xl mx-auto text-left">
             Soy estudiante de Analista Programador Computacional en Duoc UC, con
             el Portafolio de Título aprobado, lo que me habilita para iniciar mi
             Práctica Profesional de forma inmediata. Me especializo en desarrollo
