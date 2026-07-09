@@ -4,7 +4,7 @@ import AnimatedSection from "./AnimatedSection";
 
 export default function Contact() {
   return (
-    <section id="contacto" className="py-20 bg-white">
+    <section id="contacto" className="py-20 bg-[#f5f5f5]">
       <div className="max-w-4xl mx-auto px-4 sm:px-6">
         <AnimatedSection>
           <h2 className="text-3xl font-bold text-gray-900 mb-4 text-center">
@@ -58,9 +58,8 @@ export default function Contact() {
               {/* Divider */}
               <div className="border-t border-gray-200 pt-5">
                 <div className="flex gap-3">
-                  {/* PLACEHOLDER: Reemplaza # con tu URL de LinkedIn */}
                   <a
-                    href="#"
+                    href="https://www.linkedin.com/in/javier-vieytes-39642b337/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex-1 inline-flex items-center justify-center gap-2 bg-blue-600 text-white py-3 rounded-lg font-medium hover:bg-blue-700 hover:shadow-md transition-all duration-200 text-sm"
@@ -71,9 +70,8 @@ export default function Contact() {
                     LinkedIn
                   </a>
 
-                  {/* PLACEHOLDER: Reemplaza # con tu URL de GitHub */}
                   <a
-                    href="#"
+                    href="https://github.com/WhiteLyon-JV"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex-1 inline-flex items-center justify-center gap-2 border border-gray-300 text-gray-700 py-3 rounded-lg font-medium hover:border-gray-400 hover:text-gray-900 hover:shadow-sm transition-all duration-200 text-sm"

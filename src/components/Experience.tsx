@@ -34,7 +34,7 @@ const education = [
 
 export default function Experience() {
   return (
-    <section id="experiencia" className="py-20 bg-gray-50">
+    <section id="experiencia" className="py-20 bg-[#efefef]">
       <div className="max-w-4xl mx-auto px-4 sm:px-6">
         <AnimatedSection>
           <h2 className="text-3xl font-bold text-gray-900 mb-10 text-center">

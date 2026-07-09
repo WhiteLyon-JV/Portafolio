@@ -1,12 +1,13 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
     <section
       id="inicio"
-      className="min-h-screen flex items-center justify-center bg-gradient-to-b from-blue-50/60 to-white pt-16"
+      className="min-h-screen flex items-center justify-center bg-gradient-to-b from-blue-50/60 to-[#f5f5f5] pt-16"
     >
       <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center">
         <motion.div
@@ -14,9 +15,15 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, ease: "easeOut" }}
         >
-          {/* PLACEHOLDER: Reemplaza esta imagen con tu foto de perfil */}
-          <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-gray-200 border-4 border-white shadow-lg flex items-center justify-center text-gray-400 text-sm">
-            Foto
+          <div className="w-32 h-32 mx-auto mb-6 rounded-full border-4 border-white shadow-lg overflow-hidden">
+            <Image
+              src="/foto-perfil.webp"
+              alt="Javier Vieytes"
+              width={128}
+              height={128}
+              priority
+              className="w-full h-full object-cover"
+            />
           </div>
 
           <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-3">
@@ -53,7 +60,7 @@ export default function Hero() {
 
           {/* PLACEHOLDER: Reemplaza # con tu URL de LinkedIn */}
           <a
-            href="#"
+            href="https://www.linkedin.com/in/javier-vieytes-39642b337/"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 border border-gray-300 text-gray-700 px-6 py-3 rounded-lg font-medium hover:border-blue-300 hover:text-blue-600 hover:shadow-sm transition-all duration-200"
@@ -66,7 +73,7 @@ export default function Hero() {
 
           {/* PLACEHOLDER: Reemplaza # con tu URL de GitHub */}
           <a
-            href="#"
+            href="https://github.com/WhiteLyon-JV"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 border border-gray-300 text-gray-700 px-6 py-3 rounded-lg font-medium hover:border-gray-400 hover:text-gray-900 hover:shadow-sm transition-all duration-200"

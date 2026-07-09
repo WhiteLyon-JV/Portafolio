@@ -68,7 +68,7 @@ const colorMap: Record<string, { bg: string; border: string; dot: string }> = {
 
 export default function Skills() {
   return (
-    <section id="habilidades" className="py-20 bg-white">
+    <section id="habilidades" className="py-20 bg-[#f5f5f5]">
       <div className="max-w-5xl mx-auto px-4 sm:px-6">
         <AnimatedSection>
           <h2 className="text-3xl font-bold text-gray-900 mb-10 text-center">

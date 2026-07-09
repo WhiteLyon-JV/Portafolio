@@ -4,7 +4,7 @@ import AnimatedSection from "./AnimatedSection";
 
 export default function About() {
   return (
-    <section id="sobre-mi" className="py-20 bg-white">
+    <section id="sobre-mi" className="py-20 bg-[#f5f5f5]">
       <div className="max-w-4xl mx-auto px-4 sm:px-6">
         <AnimatedSection>
           <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
