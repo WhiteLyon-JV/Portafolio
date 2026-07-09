@@ -35,7 +35,7 @@ export default function Navbar() {
             href="#inicio"
             className="text-lg font-semibold text-gray-800 hover:text-blue-600 transition-colors"
           >
-            JV
+            WhiteLyon
           </a>
 
           {/* Desktop */}
