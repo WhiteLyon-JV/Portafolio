@@ -11,8 +11,8 @@ export default function Contact() {
             Contacto
           </h2>
           <p className="text-text-muted text-center mb-10">
-            ¿Tienes una oportunidad de práctica o quieres conversar? Escríbeme
-            directamente.
+            Estoy disponible para Práctica Profesional. Si crees que puedo
+            aportar a tu equipo, no dudes en contactarme.
           </p>
         </AnimatedSection>
 
