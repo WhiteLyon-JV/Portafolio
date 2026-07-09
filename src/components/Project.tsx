@@ -33,13 +33,13 @@ export default function Project() {
 
         <AnimatedSection delay={0.1}>
           <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
-            <div className="w-full bg-gray-100">
+            <div className="w-full max-h-72 overflow-hidden bg-gray-100">
               <Image
                 src="/raccu-foto.webp"
                 alt="Raccu — App de Control Parental Gamificada"
                 width={960}
                 height={540}
-                className="w-full h-auto object-cover"
+                className="w-full h-full object-cover object-top"
                 priority
               />
             </div>
