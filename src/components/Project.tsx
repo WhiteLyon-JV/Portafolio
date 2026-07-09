@@ -67,23 +67,31 @@ export default function Project() {
               <p className="text-sm font-medium bg-gradient-to-r from-indigo-400 to-cyan-400 bg-clip-text text-transparent mb-4">
                 Full Stack + IA
               </p>
-              <p className="text-text-muted mb-8 leading-relaxed">
+              <p className="text-text-muted mb-4 leading-relaxed">
                 Aplicación Android de control parental que convierte el límite de
                 uso de pantalla en un sistema de logros gamificado para niños de 5
                 a 15 años, reduciendo el conflicto entre padres e hijos por el uso
                 del celular.
               </p>
+              <p className="text-sm text-text-muted/70 mb-8">
+                Proyecto desarrollado en equipo (3 integrantes) como Portafolio de
+                Título, presentado y aprobado por Duoc UC, Escuela de Informática
+                y Telecomunicaciones.
+              </p>
 
+              <h4 className="text-lg font-semibold text-text-bright mb-4">
+                Mi rol en el equipo
+              </h4>
               <div className="grid md:grid-cols-2 gap-8 mb-8">
                 <div>
-                  <h4 className="text-lg font-semibold text-text-bright mb-3 flex items-center gap-2">
+                  <h4 className="text-base font-semibold text-text-bright mb-3 flex items-center gap-2">
                     <span className="w-2 h-2 rounded-full bg-indigo-500" />
                     Frontend (Flutter)
                   </h4>
                   <ul className="space-y-2 text-sm text-text-muted">
                     <li className="flex gap-2">
                       <span className="text-indigo-400 mt-1 shrink-0">•</span>
-                      Diseñé y desarrollé la interfaz completa de la app, con dos
+                      Diseño y desarrollo de toda la interfaz de la app, con dos
                       flujos diferenciados: rol padre y rol hijo.
                     </li>
                     <li className="flex gap-2">
@@ -107,33 +115,33 @@ export default function Project() {
                 </div>
 
                 <div>
-                  <h4 className="text-lg font-semibold text-text-bright mb-3 flex items-center gap-2">
+                  <h4 className="text-base font-semibold text-text-bright mb-3 flex items-center gap-2">
                     <span className="w-2 h-2 rounded-full bg-cyan-500" />
                     Backend (FastAPI + Python)
                   </h4>
                   <ul className="space-y-2 text-sm text-text-muted">
                     <li className="flex gap-2">
                       <span className="text-cyan-400 mt-1 shrink-0">•</span>
-                      Construí la API REST que gestiona autenticación por roles,
-                      desafíos, recompensas y bloqueos.
-                    </li>
-                    <li className="flex gap-2">
-                      <span className="text-cyan-400 mt-1 shrink-0">•</span>
-                      Implementé bloqueo de apps a nivel de dispositivo (por
-                      horario y automático) con monitoreo en tiempo real del uso
+                      Bloqueo inteligente del dispositivo, por horario o de forma
+                      inmediata, con visualización en tiempo real del uso de apps
                       del menor.
                     </li>
                     <li className="flex gap-2">
                       <span className="text-cyan-400 mt-1 shrink-0">•</span>
-                      Integré la API de Groq (LLM) mediante prompt engineering
-                      para generar desafíos personalizados según edad e intereses
-                      del niño.
+                      Lógica de negocio del backend en conjunto con el equipo:
+                      autenticación por roles, desafíos, recompensas y bloqueos.
                     </li>
                     <li className="flex gap-2">
                       <span className="text-cyan-400 mt-1 shrink-0">•</span>
-                      Gestión de base de datos y autenticación con Supabase,
-                      notificaciones push con Firebase, correos transaccionales
-                      con Resend, despliegue en Render.
+                      Integración de la API de Groq (LLM) mediante prompt
+                      engineering para generar desafíos personalizados según edad
+                      e intereses del niño.
+                    </li>
+                    <li className="flex gap-2">
+                      <span className="text-cyan-400 mt-1 shrink-0">•</span>
+                      Gestión de base de datos con Supabase, notificaciones push
+                      con Firebase, correos transaccionales con Resend, despliegue
+                      en Render.
                     </li>
                   </ul>
                 </div>

@@ -23,7 +23,8 @@ export default function About() {
             <span className="text-indigo-400 font-medium">Backend Developer</span>,{" "}
             <span className="text-cyan-400 font-medium">Analista Programador</span> o{" "}
             <span className="text-amber-400 font-medium">Desarrollador Android</span>,
-            priorizando modalidad remota.
+            con disponibilidad inmediata. Priorizo modalidad remota, aunque estoy
+            abierto a evaluar híbrido según la oportunidad.
           </p>
         </AnimatedSection>
       </div>
