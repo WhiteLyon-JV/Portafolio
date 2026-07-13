@@ -4,8 +4,8 @@ import AnimatedSection from "./AnimatedSection";
 
 const skillGroups = [
   {
-    title: "Backend",
-    items: ["Python", "FastAPI", "Java", "Spring Boot", "Django"],
+    title: "Lenguajes y Frameworks",
+    items: ["Python", "FastAPI", "Django", "Java", "Spring Boot", "JavaScript", "TypeScript", "React", "HTML5", "CSS3"],
     gradient: "from-indigo-500/20 to-indigo-600/5",
     border: "border-indigo-500/20",
     dot: "bg-indigo-500",
@@ -21,7 +21,7 @@ const skillGroups = [
   },
   {
     title: "Bases de datos",
-    items: ["PostgreSQL", "MongoDB", "Supabase", "MySQL", "Oracle Database"],
+    items: ["PostgreSQL", "MongoDB", "Supabase", "MySQL", "Oracle Database", "NeonDB"],
     gradient: "from-cyan-500/20 to-cyan-600/5",
     border: "border-cyan-500/20",
     dot: "bg-cyan-500",

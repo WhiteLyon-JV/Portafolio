@@ -26,9 +26,42 @@ const education = [
     date: "2024 – 2026",
   },
   {
-    title: "Certificado en Fundamentos de Python 1",
+    title: "Enseñanza Media",
+    institution: "Colegio Talagante Garden School",
+    date: "2020 – 2023",
+  },
+];
+
+const certifications = [
+  {
+    title: "Python Essentials 1 y 2",
     institution: "Cisco Networking Academy",
-    date: "2024",
+    date: "2024 – 2026",
+  },
+  {
+    title: "JavaScript Essentials 1 y 2",
+    institution: "Cisco Networking Academy",
+    date: "2026",
+  },
+  {
+    title: "HTML Essentials",
+    institution: "Cisco Networking Academy",
+    date: "2026",
+  },
+  {
+    title: "Data Science Essentials With Python",
+    institution: "Cisco Networking Academy",
+    date: "2026",
+  },
+  {
+    title: "Domina TypeScript / TypeScript esencial",
+    institution: "LinkedIn Learning",
+    date: "2026",
+  },
+  {
+    title: "Curso de QA — Nivel Básico",
+    institution: "Academia de Testing",
+    date: "2026",
   },
 ];
 
@@ -90,6 +123,28 @@ export default function Experience() {
                   </span>
                 </div>
                 <p className="text-sm text-text-muted/60 mt-1">{edu.date}</p>
+              </div>
+            </AnimatedSection>
+          ))}
+        </div>
+
+        <AnimatedSection delay={0.3}>
+          <h2 className="text-3xl font-heading font-bold text-text-bright mt-16 mb-10 text-center">
+            Certificaciones
+          </h2>
+        </AnimatedSection>
+
+        <div className="grid sm:grid-cols-2 gap-4">
+          {certifications.map((cert, i) => (
+            <AnimatedSection key={i} delay={0.35 + i * 0.06}>
+              <div className="bg-surface rounded-xl border border-border p-5 hover:border-amber-500/30 hover:shadow-lg hover:shadow-black/10 transition-all duration-200 h-full">
+                <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
+                  <h3 className="font-semibold text-text-bright">{cert.title}</h3>
+                  <span className="text-sm text-amber-400 font-medium">
+                    {cert.institution}
+                  </span>
+                </div>
+                <p className="text-sm text-text-muted/60 mt-1">{cert.date}</p>
               </div>
             </AnimatedSection>
           ))}
