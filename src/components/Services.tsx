@@ -11,6 +11,14 @@ const services = [
     tech: ["HTML", "CSS", "JavaScript", "Cloudflare Workers"],
     url: "https://barberia-el-roble.javier05jean96.workers.dev/",
   },
+  {
+    title: "Sushi Kai",
+    type: "Landing Page",
+    description:
+      "Prototipo demostrativo de sitio web para restaurante de sushi. Incluye menú interactivo con filtros por categoría, carrito de compras, combos promocionales, galería y pedido directo por WhatsApp.",
+    tech: ["HTML", "CSS", "JavaScript", "Cloudflare Pages"],
+    url: "https://sushi-c5p.pages.dev/",
+  },
 ];
 
 export default function Services() {
