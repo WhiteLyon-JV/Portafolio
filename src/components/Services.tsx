@@ -7,7 +7,7 @@ const services = [
     title: "Barbería El Roble",
     type: "Landing Page",
     description:
-      "Landing page profesional para barbería en Providencia, Santiago. Incluye galería de trabajos, servicios con precios, testimonios de clientes, formulario de reserva y botón de WhatsApp.",
+      "Prototipo demostrativo de landing page para una barbería. Diseñada como muestra de estilo y funcionalidad para potenciales clientes. Incluye galería, servicios con precios, testimonios, formulario de reserva y botón de WhatsApp.",
     tech: ["HTML", "CSS", "JavaScript", "Cloudflare Workers"],
     url: "https://barberia-el-roble.javier05jean96.workers.dev/",
   },
