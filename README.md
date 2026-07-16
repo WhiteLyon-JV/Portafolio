@@ -2,8 +2,6 @@
 
 **[Ver portafolio en vivo](https://portafolio-five-lilac-12.vercel.app/)**
 
-Portafolio profesional de desarrollador Full Stack, construido con Next.js, Tailwind CSS y Framer Motion.
-
 ## Sobre mí
 
 Estudiante de Analista Programador Computacional en Duoc UC, con Portafolio de Título aprobado. Disponible para Práctica Profesional como Backend Developer, Analista Programador o Desarrollador Android.
